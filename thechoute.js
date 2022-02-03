@@ -863,19 +863,7 @@ De preferencia solo hablare si realmente necesitas algo.
 [💈] Administradores: _${groupAdmins.length}_
 [💈] Miembros: _${groupMembers.length - groupAdmins.length }_
 [💈] Total de Participantes: _${groupMembers.length}_
-`
-const install = 
-`*PROCESO DE INSTALACION DEL BOT*
-
-
-
-
-const allmenu = 
-`
-╔─━━━░★░━━━━╗
-            *MENU OFICIAL*
-            𝕿𝖍ٌ𝖊𝕮𝖍𝖔𝖚𝖙𝖊
-╚─━━━░★░━━━─╝
+.
 
 ¤ = ~ ~ ◉ ~~ = ¤.•♫•♬•♬•♫•.
 ${timeFt} @${sender.split('@')[0]}
@@ -985,10 +973,10 @@ if (test.includes(`grupo`)){
   💭:Se ayuda a quienes tengas problemas
   
   Grupo 1 : 
-  _https://chat.whatsapp.com/KOmt1i9738c2zA1SnSLwn1_
+  NeKotine
   
   Grupo 2 : 
-  _https://chat.whatsapp.com/GQnptaCf21IEvLJ69RPT4a_`, MessageType.text, {quoted: choute})
+  NeKotine`, MessageType.text, {quoted: choute})
   addFilter(from)
     addLevelingLevel(sender, 5)	}}
 
