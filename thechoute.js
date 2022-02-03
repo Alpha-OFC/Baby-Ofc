@@ -575,14 +575,14 @@ AGRADECIMIENTO
 
 Si quieres agradecer o realizar una donación por utilizar mi bot puedes hacerlo, subcribiendote a mi canal y siguiendome en mis redes:
 
-★·.·¯·.·★ *YOUTUBE* ★·.·¯·.·★
-_https://www.youtube.com/c/thechout?sub_confirmation=1_
+★·.·¯·.·★ *TikTok* ★·.·¯·.·★
+https://vm.tiktok.com/ZMLNSV3YV/
 
-★·.·¯·.·★ *INSTAGRAM* ★·.·´¯·.·★
-https://www.instagram.com/the_choute_/
+★·.·¯·.·★ *INSTAGRAM* ★·.·¯·.·★
+https://www.instagram.com/invites/contact/?i=1qp4vqk0sej50&utm_content=nd5ydrh
 
-★·.·¯·.·★ *GITHUB* ★·.·¯·.·★
-https://github.com/thechoute/thechoute`
+★·.·¯·.·★ *Spotify* ★·.·¯·.·★
+https://open.spotify.com/user/31o3lrj6frumzfm6hlcggykclbby?si=FWf7fLm8TOGPaK9QWvrWLg&utm_source=whatsapp
 const quecanciones = `
 Porfavor, es nesesario que envies el link de la musica para poder continuar, si no sabes como sacar el link de un audio.
 
@@ -805,14 +805,14 @@ const multimedia = `๑۩۞۩๑ 𝐌𝐮𝐥𝐭𝐢𝐦𝐞𝐝𝐢𝐚..๑۩
 const base = `
 INFO DE MI CREADOR
 
-*Youtube:*
-https://www.youtube.com/channel/UC-HPutaDGeTPjrCId0bXQgg?sub_confirmation=1
+*TikTok:*
+https://vm.tiktok.com/ZMLNSV3YV/
 
 *Instagram:*
-https://www.instagram.com/the_choute_/
+https://www.instagram.com/invites/contact/?i=1qp4vqk0sej50&utm_content=nd5ydrh
 
-*Github:*
-https://github.com/Thechoute
+*Spotify:*
+https://open.spotify.com/user/31o3lrj6frumzfm6hlcggykclbby?si=FWf7fLm8TOGPaK9QWvrWLg&utm_source=whatsapp
 `
 
 const infobot =
@@ -867,29 +867,7 @@ De preferencia solo hablare si realmente necesitas algo.
 const install = 
 `*PROCESO DE INSTALACION DEL BOT*
 
-Video completo donde se explican los pasos para la instalacion
 
-https://youtu.be/Uv8U9VChJHo
-
-*PASOS DE INSTALACION*
-Insttala archivos necesarios
-
-- pkg upgrade && update
-- pkg install nodejs
-- pkg install git
-- pkg install bash
-
-*Clona este repositorio*
-
-git clone https://github.com/thechoute/Baby-Ofc
-
-*Inicia la instalacion*
-
-- cd Baby-Ofc
-- bash install.sh
-PARA INICIAR EL BOT
-
-- npm start`
 
 
 const allmenu = 
