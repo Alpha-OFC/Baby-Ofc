@@ -1351,7 +1351,7 @@ if (choute.message.buttonsResponseMessage){
     uptime = process.uptime()
     leo.sendMessage(from, `🔥 SIGUEME EN YOUTUBE🔥 \n${base}`, MessageType.text, {quoted: choute, caption: `${base}`, contextInfo: {"forwardingScore": 508, "isForwarded": true, "externalAdReply": 
     {"title": `Hola ${pushname} 👋🏻`, 
-    "body": `BabyBechoso`, "mediaType": 2, 
+    "body": `NeKotine`, "mediaType": 2, 
     "thumbnail": fs.readFileSync(`media/imagen/fake.jpg`), 
     mediaUrl: "https://youtu.be/cxZ98u3Jqto"}}},
     {contextInfo: { mentionedJid: [sender,Oowner]}})  
@@ -1436,7 +1436,7 @@ case 'reg':
 [💈] 𝐄𝐃𝐀𝐃: _${edad}_
 [💈] 𝐇𝐎𝐑𝐀: _${time}_
 [💈] DNI: _${serialUser}_
-└────「 *𝕿𝖍ٌ𝖊𝕮𝖍𝖔𝖚𝖙𝖊* 」
+└────「 *𝕿𝖍ٌNeKotine* 」
 Verificación completa usa *${prefix}menu* para ver el Menu`
                 let tampa = await getBuffer(ppimg)
                 leo.sendMessage(from, tampa, image, {quoted: choute, caption: capt})
@@ -1968,30 +1968,7 @@ case 'chiste':
             addFilter(from)
             break
 
-case 'owner':
-case 'creador':
-  try {
-    ppimg = await leo.getProfilePicture(`${Oowner.split('@')[0]}@c.us`)
-    } catch {
-    ppimg = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
-    }
-    tu = await leo.getStatus(`${Oowner.split('@')[0]}@c.us`, MessageType.text)
-
-its = await getBuffer (ppimg)
-    leo.sendMessage(from,  its, image, {thumbnail:fs.readFileSync('./media/imagen/cmayor.jpg'), quoted: choute, caption: 
-`${timeFt} @${sender.split('@')[0]}
-_Acontinuacion te muestro, mi creador, de preferencia solo hablare si necesitas algo :D_
-
-☎️ *Número* : @${Oowner.split("@")[0]}
-📋 *INFO:* ${tu.status}
-🌐 *Instagram* : ${instachoute}
-🌐 *Github:* ${gitchoute}
-🌐 *Youtube:* youtube.com/c/thechout\nCualquier apoyo me serviria de mucho`, contextInfo: { mentionedJid: [Oowner, sender], "forwardingScore": 508, "isForwarded": true, "externalAdReply": 
-    {"title": 'Canal de Mi Creador',       
-    "body": 'Subcribete Te Podria Interesar',  
-    "thumbnail": fs.readFileSync('./media/imagen/ldeadnote.png'),
-    "sourceUrl": 'https://www.youtube.com/channel/UC-HPutaDGeTPjrCId0bXQgg?sub_confirmation=1'}}})
-    break          
+      
 
 
 case 'vor':
